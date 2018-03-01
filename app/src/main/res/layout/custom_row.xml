@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp">
+
+        <ImageView
+            android:id="@+id/image_view_custom"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/eggs" />
+
+
+        <TextView
+            android:id="@+id/product_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/image_view_custom"
+
+            android:background="#d7d1d1"
+            android:text="89453545"
+            android:textColor="#000000"
+
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/product_name"
+            android:layout_width="170dp"
+            android:layout_height="45dp"
+            android:layout_below="@id/product_id"
+            android:layout_marginTop="16dp"
+            android:layout_toRightOf="@id/image_view_custom"
+            android:text="Eggs"
+            android:textColor="#206187"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/product_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_below="@id/product_name"
+
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/image_view_custom"
+            android:text="Need to consume earlier" />
+
+        <ImageView
+
+            android:id="@+id/product_environment_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/expiry_status"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/sunny" />
+
+        <TextView
+            android:id="@+id/expiry_status"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="20dp"
+
+            android:layout_marginTop="10dp"
+            android:text="Expired"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_toLeftOf="@id/expiry_status"
+            android:src="@drawable/red_spot" />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+   android:background="#565555"
+    android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/product_idt"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="HELLO WORLD!"-->
+        <!--android:textSize="20sp"/>-->
+    <!--<TextView-->
+        <!--android:id="@+id/product_namet"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="HELLO WORLD!"-->
+        <!--android:textSize="20sp"/>-->
+    <!--<TextView-->
+        <!--android:id="@+id/product_datet"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="HELLO WORLD!"-->
+        <!--android:textSize="20sp"/>-->
+    <!--<TextView-->
+        <!--android:id="@+id/product_desct"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="HELLO WORLD!"-->
+        <!--android:textSize="20sp"/>-->
+    <!--<TextView-->
+        <!--android:id="@+id/product_typet"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="HELLO WORLD!"-->
+        <!--android:textSize="20sp"/>-->
+    <!--<TextView-->
+        <!--android:id="@+id/product_envit"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="HELLO WORLD!"-->
+        <!--android:textSize="20sp"/>-->
+    <!--<TextView-->
+        <!--android:id="@+id/product_pict"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="HELLO WORLD!"-->
+        <!--android:textSize="20sp"/>-->
+
+
+
+
+</LinearLayout>

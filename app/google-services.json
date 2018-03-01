@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "41301079305",
+    "firebase_url": "https://eatsoon-101c5.firebaseio.com",
+    "project_id": "eatsoon-101c5",
+    "storage_bucket": "eatsoon-101c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41301079305:android:f31ed48ebc6037c5",
+        "android_client_info": {
+          "package_name": "com.example.android.eat_soon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41301079305-sm3b18aacpcsjpr0qu91a3css7f87mhq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.eat_soon",
+            "certificate_hash": "7e6f5ca6d480e70a19e5f2ef8f4e21630fe0689b"
+          }
+        },
+        {
+          "client_id": "41301079305-14efhhbhkoo0he9opuf8qm4u7rqc7pd8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGRKu5ac6tUDVXfDfqNqzZkTtkpL_V1IA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41301079305-14efhhbhkoo0he9opuf8qm4u7rqc7pd8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

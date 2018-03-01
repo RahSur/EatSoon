@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Eat-Soon</string>
+    <string name="scan">SCAN</string>
+    <string name="scan_description">Snap Barcode symbol and place the scanner infront of
+        \n QR/Barcode to get the Product ID</string>
+
+    <array name="day">
+        <item>Day</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+
+
+    </array>
+    <array name="Month">
+        <item>Month</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+
+
+    </array>
+    <array name="product_type">
+        <item>Fruits</item>
+        <item>Milk</item>
+        <item>Vegetables</item>
+        <item>Medicines</item>
+        <item>Dairy Products</item>
+        <item>Snacks</item>
+        <item>Food Item</item>
+        <item>Juice</item>
+        <item>Sweets</item>
+        <item>Eggs</item>
+        <item>Others</item>
+
+
+    </array>
+
+
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+
+
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+
+</resources>

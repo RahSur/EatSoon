@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.rahul.Main2Activity"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#000000"
+            android:text="Purchase Products"
+            android:textSize="30dp"
+            android:textColor="#ffff"
+            />
+
+        <ImageView
+            android:id="@+id/img1_bb"
+            android:onClick="big"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:src="@drawable/big"
+            android:layout_gravity="center"
+        />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Big Basket"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            />
+
+        <ImageView
+            android:id="@+id/img2_amaz"
+            android:onClick="amaz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/amazon" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amazon"
+            android:layout_gravity="center"
+            android:textSize="30dp"/>
+
+        <ImageView
+            android:id="@+id/img3_grofers"
+            android:layout_marginTop="30dp"
+            android:onClick="grof"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/grof"
+            />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grofers"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            />
+
+        <ImageView
+            android:id="@+id/img4_hat"
+            android:onClick="hat"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hat"
+            />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hatsun"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            />
+
+
+
+    </LinearLayout>
+    <!--<RelativeLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content">-->
+
+
+    <!--</RelativeLayout>-->
+
+    <!--<com.google.android.gms.ads.AdView-->
+        <!--android:id="@+id/adView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+
+        <!--ads:adSize="BANNER"-->
+        <!--ads:adUnitId="@string/banner_ad_unit_id">-->
+    <!--</com.google.android.gms.ads.AdView>-->
+
+
+</ScrollView>

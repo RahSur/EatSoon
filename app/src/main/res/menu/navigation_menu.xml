@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+<item
+    android:id="@+id/profile"
+    android:title="Profile Credits"
+
+    />
+    <item
+        android:id="@+id/Purchase_Products"
+        android:title="Purchase Products"
+
+        />
+    <item
+        android:id="@+id/invite"
+        android:title="Invite"
+
+        />
+    <item
+        android:id="@+id/about_us"
+        android:title="About Us"
+
+        />
+    <item
+        android:id="@+id/log_out"
+        android:title="Logout"
+
+        />
+
+
+
+</menu>
